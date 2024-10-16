@@ -21,7 +21,7 @@ Pkg.add(["RxInfer", "JSON3", "Statistics"])
 
 ```bash
 cd server
-julia skill_model.jl
+julia server.jl
 ```
 
 The server will start and listen for connections on port 65432.
@@ -57,6 +57,7 @@ pip install -r requirements.txt
 To start the client:
 
 ```bash
+cd client
 python client.py
 ```
 
